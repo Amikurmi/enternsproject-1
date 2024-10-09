@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered Nested List</title>
+    <style>
+        ol {
+            list-style-type: decimal; /* Change list number style */
+        }
+        ol ol {
+            list-style-type: lower-alpha; /* Change nested list number style */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ordered Nested List</h1>
+    <ol>
+        <li>Item 1
+            <ol>
+                <li>Subitem 1.1</li>
+                <li>Subitem 1.2
+                    <ol>
+                        <li>Sub-subitem 1.2.1</li>
+                        <li>Sub-subitem 1.2.2</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ol>
+                <li>Subitem 3.1</li>
+                <li>Subitem 3.2</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>

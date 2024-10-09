@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treat Point Menu</title>
+    <style>
+        table {
+            border: 5px solid red; /* Specification 2: Red border with 5px thickness */
+            background-color: cyan; /* Specification 3: Cyan background */
+            width: 20%;
+            margin: 0 auto; /* Centering the table */
+            border-collapse: collapse;
+            cell-padding: 1px;
+        }
+
+        th, td {
+            padding: 1px; /* Sets padding of 1px for cells */
+            text-align: left;
+            border: 1px solid black; /* 1px cell border */
+        }
+
+        th {
+            background-color: lightgray; /* Optional: Adds a different background for headers */
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            caption-side: top;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px; /* Aligns list with indentation */
+        }
+
+        ol {
+            padding-left: 20px; /* Aligns list with indentation */
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- Specification 1: Title of the table -->
+        <caption>Treat Point</caption>
+        
+        <!-- Row 1 -->
+        <tr>
+            <td>Indian</td> <!-- Specification 4: Using rowspan -->
+            <td>
+                <ul> <!-- Unordered list for bullet points -->
+                    <li>Masala Dosa</li>
+                    <li>Chhole Bhature</li>
+                    <li>Paav Bhaji</li>
+                </ul>
+            </td>
+        </tr>
+
+      
+
+        <!-- Row 3 -->
+        <tr>
+            <td>Chinese</td>
+            <td>
+                <ol> <!-- Ordered list for numbered items -->
+                    <li>Chilli Paneer</li>
+                    <li>Manchurian</li>
+                    <li>Noodles</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

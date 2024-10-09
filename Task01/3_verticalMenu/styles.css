@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.vertical-menu {
+    width: 250px;
+    background-color: #333;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+}
+
+.vertical-menu a {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+.vertical-menu a:hover {
+    background-color: #555;
+}
+
+.vertical-menu a.active {
+    background-color: #3498db;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .vertical-menu {
+        width: 200px;
+    }
+
+    .vertical-menu a {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
